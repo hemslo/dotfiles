@@ -37,10 +37,10 @@ syntax enable
 syntax on
 
 filetype off
-set rtp+=~/.vim/bundle/vundle/
-call vundle#rc()
+set rtp+=~/.vim/bundle/Vundle.vim/
+call vundle#begin()
 
-Bundle 'gmarik/vundle'
+Bundle 'gmarik/Vundle.vim'
 Bundle 'taglist.vim'
 
 Bundle 'The-NERD-tree'
@@ -62,8 +62,8 @@ let g:Powerline_symbols = 'fancy'
 set t_Co=256
 
 Bundle 'molokai'
-colorscheme molokai
 
-filetype indent on
-filetype plugin on
+call vundle#end()
 filetype plugin indent on
+
+colorscheme molokai
