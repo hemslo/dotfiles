@@ -1,0 +1,3 @@
+set guifont=DejaVu\ Sans\ Mono\ for\ Powerline:h14
+let NERDTreeQuitOnOpen=0
+colorscheme molokai

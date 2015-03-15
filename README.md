@@ -1,3 +1,3 @@
 # Hemslo's vimrc
 
-vimrc managed by vundle.
+Local files of spf13-vim.
