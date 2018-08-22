@@ -1,3 +1,3 @@
-# Hemslo's vimrc
+# Hemslo's dotfiles
 
-Local files of spf13-vim.
+* vim
