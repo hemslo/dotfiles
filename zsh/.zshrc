@@ -67,8 +67,13 @@ plugins=(
   git
   git-extras
   osx
+  zsh-autosuggestions
+  zsh-completions
   zsh-syntax-highlighting
 )
+
+export ZSH_AUTOSUGGEST_STRATEGY=(history completion)
+export ZSH_AUTOSUGGEST_USE_ASYNC="true"
 
 source $ZSH/oh-my-zsh.sh
 
@@ -115,3 +120,5 @@ else
 fi
 unset __conda_setup
 # <<< conda initialize <<<
+
+autoload -U compinit && compinit
