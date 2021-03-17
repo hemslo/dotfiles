@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
 
 for f in */.[^.]*; do
-    ln -sv `pwd`/$f ~
+    ln -snfv `pwd`/$f ~
 done

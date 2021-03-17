@@ -67,6 +67,8 @@ plugins=(
   git
   git-extras
   osx
+  vi-mode
+  fzf
   zsh-autosuggestions
   zsh-completions
   zsh-syntax-highlighting
