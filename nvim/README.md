@@ -1,0 +1,5 @@
+#Neovim
+
+```
+:CocInstall coc-snippets
+```
