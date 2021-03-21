@@ -20,6 +20,7 @@ endif
 call plug#begin(stdpath('data') . '/plugged')
     Plug 'airblade/vim-gitgutter'
     Plug 'easymotion/vim-easymotion'
+    Plug 'glacambre/firenvim', { 'do': { _ -> firenvim#install(0) } }
     Plug 'honza/vim-snippets'
     Plug 'iamcco/markdown-preview.nvim', { 'do': 'cd app && yarn install'  }
     Plug 'icymind/neosolarized'
@@ -41,6 +42,19 @@ let airline#extensions#tabline#enabled=1
 let airline#extensions#tabline#left_alt_sep='|'
 let airline#extensions#tabline#left_sep=' '
 let airline_powerline_fonts=1
+
+if exists('g:started_by_firenvim')
+  let g:firenvim_config = {
+    \ 'globalSettings': {
+        \ 'alt': 'all',
+    \  },
+    \ 'localSettings': {
+        \ '.*': {
+            \ 'takeover': 'never',
+        \ },
+    \ }
+  \ }
+endif
 
 noremap <Leader>e :NERDTreeToggle<CR>
 noremap <Leader>n :NERDTreeFocus<CR>
