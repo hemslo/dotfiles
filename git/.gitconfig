@@ -1,0 +1,15 @@
+[filter "lfs"]
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
+	required = true
+[user]
+	name = Hemslo Wang
+	email = hemslo.wang@gmail.com
+	signingkey = 1328C2576638FA79
+[commit]
+	gpgsign = true
+[tag]
+	gpgSign = true
+[core]
+	excludesfile = /Users/hemslo/.gitignore_global
