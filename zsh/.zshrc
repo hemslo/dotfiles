@@ -81,8 +81,9 @@ plugins=(
   zsh-syntax-highlighting
 )
 
-export ZSH_AUTOSUGGEST_STRATEGY=(history completion)
 export ZSH_AUTOSUGGEST_USE_ASYNC="true"
+export ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE="fg=15"
+export ZSH_AUTOSUGGEST_BUFFER_MAX_SIZE="20"
 
 source $ZSH/oh-my-zsh.sh
 
