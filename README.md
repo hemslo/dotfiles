@@ -3,6 +3,5 @@
 * brew
 * git
 * neovim
-* spacemacs
 * vim
 * zsh
