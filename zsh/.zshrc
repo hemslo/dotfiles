@@ -75,7 +75,7 @@ plugins=(
   git
   git-extras
   kubectl
-  osx
+  macos
   vi-mode
   fzf
   zsh-autosuggestions
