@@ -1,4 +1,0 @@
-UnBundle 'amirh/HTML-AutoCloseTag'
-Bundle 'heracek/HTML-AutoCloseTag', {'name': 'HTML-AutoCloseTag2'}
-UnBundle 'carlosgaldino/elixir-snippets'
-Bundle 'slashmili/alchemist.vim'

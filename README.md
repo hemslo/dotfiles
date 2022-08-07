@@ -3,5 +3,4 @@
 * brew
 * git
 * neovim
-* vim
 * zsh
