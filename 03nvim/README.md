@@ -3,8 +3,10 @@
 Based on [NvChad](https://nvchad.github.io/).
 
 ```
-git clone https://github.com/NvChad/NvChad ~/.config/nvim
+./install.sh
 ```
+
+Plugins Sync.
 
 ```
 :PackerSync
