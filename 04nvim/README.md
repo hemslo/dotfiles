@@ -1,4 +1,4 @@
-#Neovim
+# Neovim
 
 Based on [NvChad](https://nvchad.github.io/).
 
