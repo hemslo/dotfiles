@@ -14,5 +14,5 @@ if [ "$(uname -s)" == "Linux" ] && [ -x "$(command -v apt)" ]; then
     neovim \
     tig \
     zsh
-  chsh -s "$(command -v zsh)"
+  sudo chsh -s "$(command -v zsh)" "$(whoami)"
 fi
