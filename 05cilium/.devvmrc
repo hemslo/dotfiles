@@ -1,6 +1,8 @@
 #!/usr/bin/env bash
 
+sudo -u vagrant bash << EOF
 git -C ~/dotfiles pull || \
   git clone https://github.com/hemslo/dotfiles.git ~/dotfiles
 
 ~/dotfiles/bootstrap.sh
+EOF
