@@ -6,7 +6,7 @@
 [user]
 	name = Hemslo Wang
 	email = hemslo.wang@gmail.com
-	signingkey = 1328C2576638FA79
+	signingkey = 1DFDF2BD8065B8D8
 [commit]
 	gpgsign = true
 [tag]
