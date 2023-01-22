@@ -9,6 +9,7 @@
 	signingkey = 1DFDF2BD8065B8D8
 [commit]
 	gpgsign = true
+	template = ~/.gitmessage.txt
 [tag]
 	gpgSign = true
 [core]
