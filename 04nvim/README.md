@@ -9,6 +9,6 @@ Based on [NvChad](https://nvchad.github.io/).
 Plugins Sync.
 
 ```
-:PackerSync
+:Lazy sync
 :MasonInstallAll
 ```

@@ -7,8 +7,6 @@ cd "$(dirname "$0")"
 echo "Setting up nvim..."
 
 git -C ~/.config/nvim pull || \
-  git clone https://github.com/NvChad/NvChad ~/.config/nvim
+  git clone https://github.com/NvChad/starter ~/.config/nvim
 
-mkdir -p ~/.config/nvim/lua/custom
-
-ln -snfv "${PWD}/chadrc.lua" ~/.config/nvim/lua/custom/chadrc.lua
+ln -snfv "${PWD}/chadrc.lua" ~/.config/nvim/lua/chadrc.lua
